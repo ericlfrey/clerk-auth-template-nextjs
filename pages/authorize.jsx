@@ -4,8 +4,6 @@ export default function Authorize() {
   const { isLoaded, userId, sessionId, getToken } = useAuth();
   const { user } = useUser();
 
-  console.log(user);
-
   if (!isLoaded || !userId) {
     return null;
   }

@@ -8,14 +8,12 @@ function NavBar() {
   const { user } = useUser();
   const { signOut } = useClerk();
 
-  // console.log(user.id);
-
   const handleLogout = async () => {
     try {
-      await signOut();
       router.push('/');
+      await signOut();
     } catch (error) {
-      console.log(error.message);
+      console.log(error);
     }
   };
 

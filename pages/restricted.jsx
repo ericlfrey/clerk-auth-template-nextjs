@@ -1,8 +1,12 @@
-import { useUser } from '@clerk/nextjs';
+import { useAuth, useUser } from '@clerk/nextjs';
 import React from 'react';
 
 export default function RestrictedPage() {
   const { user } = useUser();
-  console.log(user);
+  const { isLoaded, userId } = useAuth();
+
+  if (!isLoaded || !userId) {
+    return null;
+  }
   return <h1>Welcome {user.username}!</h1>;
 }
