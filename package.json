@@ -1,5 +1,6 @@
 {
   "name": "clerk-auth-template",
+  "author": "Eric Frey",
   "version": "0.1.0",
   "private": true,
   "scripts": {
