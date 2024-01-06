@@ -12,7 +12,7 @@
 #### 4. Go to the **NEXT** section
 
 ## Starting the Project
-1. [Create](https://dashboard.clerk.com/sign-up) or [Sign In](https://dashboard.clerk.com/sign-in) to [Clerk](clerk.com) Account.
+1. [Create](https://dashboard.clerk.com/sign-up) or [Sign In](https://dashboard.clerk.com/sign-in) to [Clerk](https://clerk.com/) Account.
 1. [Create a Clerk project](https://dashboard.clerk.com/apps/new). 
 1. Rename the `.env.sample` to  `.env`.
 1. Copy over all of your Clerk API keys into the `.env` file.
